@@ -1,0 +1,129 @@
+html{
+	height:100%
+}
+
+body{
+    font-family: sans-serif,arial,verdana;
+    margin: 0;
+    padding: 0;
+	font-size: 62.5%;
+	height:100%;
+}
+
+.ballonImage{
+	background-image:url('ballon.png');
+	background-repeat: repeat-x;
+	position:absolute;
+	top:1049px;
+	height:131px;
+	width:100%;
+	z-index:-1;
+}
+
+.player-information{
+	font-size:2em;
+}
+
+.outer>div{
+	margin-top:10px;
+}
+
+.outer {
+	padding-top: 10%;
+    text-align: center;
+	height:75%;
+}
+
+.grid-container{
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	height:70%;
+}
+
+.grid{
+	font-size: 10em;
+    height: 30%;
+    text-align: center;
+}
+
+.gcc{
+	height: 100%;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.row{
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	padding: 0px;
+	height: 100%;
+	width: 33%;
+	float: left;
+}
+
+
+.right-border{
+	border-left: medium none;
+    border-right-color: black;
+    border-right-style: solid;
+}
+
+.bottom-border{
+    border-bottom: medium solid black;
+    border-top: medium none;
+}
+
+.no-top-border{
+	border-top: medium none;
+}
+
+.no-right-border{
+	border-left: medium none;
+}
+
+.white{
+	background-color: white;
+}
+
+.leftDiagonal{
+	background-image: url(leftDiagonal.PNG);
+    background-size: 100% 100%;
+}
+
+.rightDiagonal{
+	background-image: url(rightDiagonal.PNG);
+    background-size: 100% 100%;
+}
+
+.vertical{
+	background-image: url(vertical.PNG);
+    background-size: 100% 100%;
+}
+
+.horizontal{
+	background-image: url(horizontal.PNG);
+    background-size: 100% 100%;
+}
+
+.red{
+	color: red;
+}
+
+.black{
+	color:black;
+}
+
+
+#result{
+	color: red;
+	font-size: 3em;
+}
+
+.button-holder{
+
+}
+
+
+
+

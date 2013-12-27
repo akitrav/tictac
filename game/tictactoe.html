@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="tictactoe.js"></script>
+		<link rel="stylesheet" href="tictactoe.css">
+		<title>Let's Play Tic Tac Toe</title>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="player-information ">
+				<span class="display-block" id="player1">PLAYER 1</span>
+				<span class="display-block"id="player2"> PLAYER 2</span>
+			</div>
+			
+			<div class="grid-container">
+				<div class="gcc">
+					<div class="row">
+					<div class="grid bottom-border right-border" id="a"></div>
+					<div class="grid bottom-border right-border" id="b"></div>
+					<div class="grid right-border no-top-border" id="c"></div>
+					</div>
+					<div class="row">
+					<div class="grid bottom-border right-border" id="d"></div>
+					<div class="grid bottom-border right-border" id="e"></div>
+					<div class="grid right-border no-top-border" id="f"></div>
+					</div>
+					<div class="row">
+					<div class="grid bottom-border no-right-border" id="g"></div>
+					<div class="grid bottom-border no-right-border" id="h"></div>
+					<div class="grid no-right-border no-top-border" id="i"></div>
+					</div>
+				</div>
+			</div>
+			<div class="button-holder">
+				<input type="button" class="button" id="submit" value="submit">
+			</div>
+			<div id="result"></div>
+			<div class="ballonImage"></div>
+		</div>
+		<div></div>
+	</body>
+</html>
